@@ -23,7 +23,7 @@ static std::mt19937_64 rng;
 static bool rng_initialized = false;
 
 
-#define test_number 20
+#define test_number 50
 #define N ((unsigned long)(pow(2, 13.6) + 0.5))   //2^13.6
 
 
