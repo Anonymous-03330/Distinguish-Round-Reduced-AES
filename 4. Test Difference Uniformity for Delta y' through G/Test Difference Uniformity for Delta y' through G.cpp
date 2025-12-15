@@ -12,7 +12,7 @@
 #define NUM_STATES (1ULL << NUM_STATES_EXP)
 #define NUM_DELTAS 256             // differences 0-255
 #define CHUNK_SIZE (1 << 20)       
-#define TEST_ROUNDS 3              // test numbers
+#define TEST_ROUNDS 100              // test numbers
 
 
 static __m128i round_key1, round_key2;
@@ -223,4 +223,5 @@ int main() {
     printf("Total number of tests: %d\n", TEST_ROUNDS);
     printf("Number of tests with uniform distribution: %d\n", success_rounds);
     printf("Pass probability: %.2f%%\n", (double)success_rounds / TEST_ROUNDS * 100.0);
+
 }
