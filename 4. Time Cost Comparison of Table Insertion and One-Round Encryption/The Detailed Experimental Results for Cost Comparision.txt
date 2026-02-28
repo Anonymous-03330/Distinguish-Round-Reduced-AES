@@ -1,0 +1,29 @@
+The size of data: 4294967296 (64.00 GB)
+The number of tests: 100
+
+==============The experimental resuls ==============
+
+----- Time for One-Round AES Encryptions without AES-NI Instructions -----
+Average Time: 56.419439 seconds
+Minimum Time: 55.532337 seconds
+Maximum Time: 88.388225 seconds
+Variance: 10.924272
+Standard Deviation: 3.305189
+
+----- Time for One-Round AES Encryptions Using AES-NI Instructions -----
+Average Time: 14.317174 seconds
+Minimum Time: 14.252833 seconds
+Maximum Time: 15.440228 seconds
+Variance: 0.044563
+Standard Deviation: 0.211100
+
+----- Time for Table Insertions -----
+Average Time: 10.818244 seconds
+Minimum Time: 10.578542 seconds
+Maximum Time: 13.224334 seconds
+Variance: 0.122947
+Standard Deviation: 0.350638
+=========================================
+
+Test Finish!
+
